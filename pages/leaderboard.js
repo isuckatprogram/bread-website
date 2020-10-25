@@ -85,9 +85,10 @@ export default class Leaderboard extends React.Component{
 
           padding: 5px 5px;
 
-          margin-left: 5px;
+          margin-left: 9px;
           transition: 0.5s;
 
+          margin-bottom: 9px;
           cursor: pointer;
         }
 
@@ -108,7 +109,7 @@ export default class Leaderboard extends React.Component{
       <br/>
       <form onSubmit={this.parseLeaderboard.bind(this)}>
         <input type="search" placeholder="Server Name/ID" required id="server-id" />
-      </form>
+      </form><br/>
       
       <div id="leaderboard">
         {this.state.loaded ? (
