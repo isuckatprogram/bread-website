@@ -16,6 +16,12 @@ export default function HomePage(){
       <br/>
       <button>Learn More</button>
       <button>Invite</button>
+
+      <br/><br/>
+      <video width="320" height="240" controls>
+      <source src="https://cdn.discordapp.com/attachments/769536884635598858/769934195098124329/final.mp4" type="video/mp4"/>
+      Your browser does not support the video tag.
+      </video>
     </Layout>
   )
 }
