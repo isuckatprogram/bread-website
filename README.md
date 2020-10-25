@@ -4,9 +4,7 @@
 
 By default, Repl.it runs the `dev` script, but you can configure it by changing the `run` field in `.replit`.
 
-To add a new page simply add a .js, .jsx, .ts, or .tsx file in the `pages` directory.
-
-Pages are associated with a route based on their file name. For example pages/about.js is mapped to /about. You can even add dynamic route parameters with the filename.
+To add a new page simply add a .js, .jsx, .ts, or .tsx file in the `pages` directory. Pages are associated with a route based on their file name. For example `pages/about.js` is mapped to `/about`. You can even add dynamic route parameters with the filename.
 
 We've already created `/pages/index.js` for you to get you started. Feel free to change its contents and see it live-update!
 
